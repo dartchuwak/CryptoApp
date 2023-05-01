@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31FDAD329FFD2370013DD4E /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31FDAD229FFD2370013DD4E /* LocalFileManager.swift */; };
 		A3452AC829E974B8005DD013 /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3452AC729E974B8005DD013 /* CryptoAppApp.swift */; };
 		A3452ACA29E974B8005DD013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3452AC929E974B8005DD013 /* ContentView.swift */; };
 		A3452ACC29E974B9005DD013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3452ACB29E974B9005DD013 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31FDAD229FFD2370013DD4E /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		A3452AC429E974B8005DD013 /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3452AC729E974B8005DD013 /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
 		A3452AC929E974B8005DD013 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 			children = (
 				A3CD8DE929EF263B000167B4 /* CoinDataService.swift */,
 				A3C044F929FFCB99006D6B24 /* CoinImageService.swift */,
+				A31FDAD229FFD2370013DD4E /* LocalFileManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				A3CD8DE729EF2186000167B4 /* HomeViewModel.swift in Sources */,
 				A3452ACA29E974B8005DD013 /* ContentView.swift in Sources */,
 				A3452ADD29E9792D005DD013 /* HomeView.swift in Sources */,
+				A31FDAD329FFD2370013DD4E /* LocalFileManager.swift in Sources */,
 				A3452AC829E974B8005DD013 /* CryptoAppApp.swift in Sources */,
 				A3C044F829FFC9BA006D6B24 /* CoinImageView.swift in Sources */,
 				A3452AE129E97A9E005DD013 /* CircleButtonView.swift in Sources */,
