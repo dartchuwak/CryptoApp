@@ -30,10 +30,8 @@ class CoinImageService {
     private func getCoinImage() {
         if let savedImage = fileManager.loadImage(imageName: imageName, folderName: folderName) {
             image = savedImage
-            print("Retrieved iamge from FM")
         } else {
             downloadCoinImage()
-            print("Loading image")
         }
     }
     
